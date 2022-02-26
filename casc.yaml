@@ -1,0 +1,11 @@
+jenkins:
+  authorizationStrategy: loggedInUsersCanDoAnything
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+       - id: admin
+         password: Erryial123
+unclassified:
+  location:
+    url: http://localhost:8080/
