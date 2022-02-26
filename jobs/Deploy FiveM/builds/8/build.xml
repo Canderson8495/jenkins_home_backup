@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1167.v8fe861b_09ef9">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>branch</name>
+          <description>This is the branch of the fiveM repository you were working on</description>
+          <value>master</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>branch</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@564.ve62a_4eb_b_e039">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>24</queueId>
+  <timestamp>1645850164540</timestamp>
+  <startTime>1645850164547</startTime>
+  <result>FAILURE</result>
+  <duration>950</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    
+    def app
+    
+    stage(&quot;Prepare&quot;){
+        try {
+            sh &apos;docker stop 1&apos;
+            sh &apos;docker rm 1&apos;
+            echo &quot;Removed old containers&quot;
+        } catch (Exception e) {
+            echo &apos;Returned: &apos; + e.toString()
+        }
+    }
+
+    stage(&apos;Pull Image&apos;) {
+        sh &apos;docker pull localhost:9999/fivem:${branch}&apos;
+    }
+    
+    stage(&apos;deploy&apos;) {
+        sh &apos;git clone https://github.com/Canderson8495/fivem-1.git&apos;
+        sh &apos;cd fivem-1&apos;
+        sh &apos;ls&apos;
+        sh &apos;docker-compose up -d&apos;
+    }
+    
+}
+
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>72746409</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>4758510</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>190605962</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>11830959</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>50904504</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>23</iota>
+    <head>1:23</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

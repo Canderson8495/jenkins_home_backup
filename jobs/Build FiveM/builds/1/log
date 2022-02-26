@@ -1,0 +1,165 @@
+Started by user [8mha:////4ObkiT5QHaiw9SkTtWumLlqIdqgpjJX+ynF0sbuK2/5MAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4FY8zmZWDDxWdjX6AOVIZiaSiLRDx7ajROaYVFGroaK3AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PwMfGS1bzPa72c4BFrvAJws4JMaoyW68sFEGO+2lRwpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Cs28nxFV82e5ojlN3ohu2HR/zBU27GrLvi04h1KslBtAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Build and Deploy FiveM
+[8mha:////4OR6MoWQxW7wkLcQRULQc0JM+xL7GMVtwY66noomv5maAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Hgr4+sc4KwzfMKR9Y0SZpZKlVy1PoIunY4mDEn0TAQSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NHHwW4LaoDN9F85cFHg8AQlH+qGCgmcK4YvYhRtx/FiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Clone repository)
+[8mha:////4Bhcqu/zeMcd6+xINIt9u3GP5nnLaBT8t3pfDzPzu0xuAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ git clone -b master https://github.com/Canderson8495/fivem-1.git /tmp/1
+Cloning into '/tmp/1'...
+[8mha:////4IeOpU/Axd0q1hr9P5GXH/a1cGbImGS0YOL9idGbKGDpAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HuHZnMBXEf82I/tY0p/HrFoSidwBMmisxbFFO9FBWBaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KE0uTqf+xGHuWSqpAepxz0k/lnWHt1eobh1dVe0EoSFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4FVmPzh9XkKPoYoIIQWRtVj1i70twfFvP6Z5jSpJ/cz8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build image)
+[8mha:////4FBPrirwAhfv5awD5A+0nT4UUQLIHUkat6nudV65pXd4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4LhfHcf62r1hUueUmDTiAkQjn4+Hx8sePLancQMevra4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFSNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPyt/2UMIAAAA=[0m[Pipeline] withEnv
+[8mha:////4AVBYXInHY93mGlIkgJ8FP02fWmwhCoB4KFrZKpgD2qhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4NRpQ1JczUEIycYah2QExZ8cSJxzHIazUEjXo86S9rljAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] sh
++ docker build -t fivem /tmp/1
+#1 [internal] load build definition from Dockerfile
+#1 sha256:73092c305da99dc51f4c600f2cd472a1378660c476be446e672eafdcf11a4b3b
+#1 transferring dockerfile: 1.52kB done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:1d881e0682c16345eb0206473966f5c08101b6478412f1286b780f112f57340a
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/spritsail/alpine:3.14
+#3 sha256:26e4a23883fdbdaece7009d455fbcdc5731e39c6149d2bee422710ae73c600c4
+#3 DONE 0.6s
+
+#13 [builder 1/7] FROM docker.io/spritsail/alpine:3.14@sha256:dd2f0aa9cb71e209b4caab6d304a016ec215d4263763a2e97a8c18fabcbc8c38
+#13 sha256:3302966397a15dee247759e82081510fd39722875ad59487bfcc365b45b60760
+#13 DONE 0.0s
+
+#6 [internal] load build context
+#6 sha256:e442e41aa973435d87fa124b804bc55fffc99b12d70d1db3507d139400a82ac6
+#6 transferring context: 15.39MB 0.9s done
+#6 DONE 0.9s
+
+#10 [builder 7/7] RUN chmod +x /output/usr/bin/entrypoint
+#10 sha256:c8b99a9fe8b4fb2a57f3f1f17229c7c6e934b716a77da643ba5ec072355134de
+#10 CACHED
+
+#11 [stage-1 1/2] COPY --from=builder /output/ /
+#11 sha256:71be1b21f3fc05754f0fc9de85ffbb0bdf3cb79a09a488c77d8b419873a04a3e
+#11 CACHED
+
+#5 [builder 3/7] RUN wget -O- http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/5181-9eba8dcc91ee4c6ab009fcf7a47837edf81efd1a/fx.tar.xz         | tar xJ --strip-components=1             --exclude alpine/dev --exclude alpine/proc             --exclude alpine/run --exclude alpine/sys  && mkdir -p /output/opt/cfx-server-data /output/usr/local/share  && apk -p $PWD add tini
+#5 sha256:5bac55b573c991ffca5c789c97e8309983a8bf84226056862ee122721ad4991b
+#5 CACHED
+
+#7 [builder 4/7] ADD server.cfg opt/cfx-server-data
+#7 sha256:600fe1a2a76747b7e874080fb7cdafbd4163afa51ebb41dbcd46e4703f8d308d
+#7 CACHED
+
+#8 [builder 5/7] ADD entrypoint usr/bin/entrypoint
+#8 sha256:19c6155a27f9162bab210b087a4ed0b3eabc000d3866214624d17cfa7682f595
+#8 CACHED
+
+#4 [builder 2/7] WORKDIR /output
+#4 sha256:96da499c454c4b429614fcd50aef77db340e8f1aae2eb10bff9b54eabdc5a62e
+#4 CACHED
+
+#9 [builder 6/7] ADD resources opt/cfx-server-data/resources
+#9 sha256:33453e5104a8f25fdc83249e3ebd6fa94879dc4617eb0c8f4039fc7c5c04717e
+#9 CACHED
+
+#12 [stage-1 2/2] WORKDIR /config
+#12 sha256:47af66eb3bfbc3ed4364ada9876a0bb5855ff07d1f90f2b24afc5d1e38fe6b69
+#12 CACHED
+
+#14 exporting to image
+#14 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#14 exporting layers
+#14 exporting layers done
+#14 writing image sha256:5a807665c2a491840d826c2be26ec259adfbea6a85ffe4fe2f3e9fff9f173ae0 done
+#14 naming to docker.io/library/fivem done
+#14 DONE 0.0s
+[8mha:////4K/w/3/Qg75KDBy0vcUzKQhMJ/uvCtTUU9aqxm6/6/6hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG9gN7HvgAAAA==[0m[Pipeline] }
+[8mha:////4GwhWw4rUeekHGiyU1YgfLPa9D84/g0qBTKqegRDIR10AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NAceCRFFisUGoYHal/J/jk/JQBz49K2AuyrQ+nypMTgAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiabibGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AUIVvo2+AAAA[0m[Pipeline] }
+[8mha:////4IZs6pc+NgUVs0EdR3Bc+EUNwDj0Fpn1DOZNvJq1ph9mAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICJUJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fcfblMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4CHSMknaCfGVAjNdyOS2oCYYg5J/wDL6ExyrIPUF2gK7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INK/7CYMEAAAA=[0m[Pipeline] stage
+[8mha:////4Fcd2AjzsTkqb6YpQaXjLZ0cBjsKvBKpdrhrsSshBMHuAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Push image)
+[8mha:////4Jz2cLcKRAfDs6Q3mkxcc0OuycsV4J27bMm/mjfkD/+wAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] withEnv
+[8mha:////4BaU1baYnR0DFXFrQkpMBS1ekqZcZY9ZDRyeipYR3+QtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4EgVYv1bvg6r1KspUyYtR6lPzjF7RIwLVQkNCYDIFa9CAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] withDockerRegistry
+[8mha:////4EkwEx8jCNn7sV+2wrlWuqCUsBcARKqmdzKgPtiS+0zuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Mgvk1VsrBUy3Z2hkw+wGuS+PJsRCUnGsWmzGg+WC3BmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF1+RyqvgAAAA==[0m[Pipeline] }
+[8mha:////4BWLsZpzdl8oUlDLmceiRJiNw/usmcse3t668vK2qHUdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1GGkcWvgAAAA==[0m[Pipeline] // withDockerRegistry
+[8mha:////4BJhzue3DYDkbc8ZXRrGECVl5Ji7pkeV6/zVrZb1NKEnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwPXV5vgAAAA==[0m[Pipeline] }
+[8mha:////4COmuCJZTpHMhe32wSaNL2QtyRfAe0e8zgr18vQ6pqKrAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiadDPGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AQPeLsW+AAAA[0m[Pipeline] // withEnv
+[8mha:////4NFrjt98MnGup9B+aJDTFW3shwbjEcsQr3FeF/ClsJgOAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPsXVX92+AAAA[0m[Pipeline] }
+[8mha:////4Da9Ef7nu+hLA0RWuDjObwHGuS1TT9cDoON0n2YL9XzCAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvP/Y2BGG+AAAA[0m[Pipeline] // stage
+[8mha:////4LCRuyaJVmr/qtgRZBHyErLNN8KdIilGkFgd//ssCWT5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8B7tlN5b0AAAA=[0m[Pipeline] }
+[8mha:////4EMks7jzxdCvmEIkgxYiSPV552+5Lhv0Iwli299F7AHVAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUlI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD9ZUlGvQAAAA==[0m[Pipeline] // node
+[8mha:////4FPDIk+L9BNAcR49shtOv+ccPlXLlwosrTbbQdXVyFnlAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q7/aCbPsBe4lug70AAAA=[0m[Pipeline] End of Pipeline
+java.net.MalformedURLException: unknown protocol: localhost
+	at java.base/java.net.URL.<init>(URL.java:652)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryEndpoint.getEffectiveUrl(DockerRegistryEndpoint.java:145)
+	at org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryEndpoint.imageName(DockerRegistryEndpoint.java:325)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.cloudbees.groovy.cps.sandbox.DefaultInvoker.methodCall(DefaultInvoker.java:20)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.toQualifiedImageName(Docker.groovy:117)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.tag(Docker.groovy:177)
+	at org.jenkinsci.plugins.docker.workflow.Docker.node(Docker.groovy:66)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.tag(Docker.groovy:176)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.push(Docker.groovy:190)
+	at org.jenkinsci.plugins.docker.workflow.Docker.node(Docker.groovy:66)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.push(Docker.groovy:187)
+	at org.jenkinsci.plugins.docker.workflow.Docker$Image.push(Docker.groovy)
+	at WorkflowScript.run(WorkflowScript:17)
+	at org.jenkinsci.plugins.docker.workflow.Docker.withRegistry(Docker.groovy:41)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:86)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.LocalVariableBlock$LocalVariable.get(LocalVariableBlock.java:39)
+	at com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)
+	at com.cloudbees.groovy.cps.impl.LocalVariableBlock.evalLValue(LocalVariableBlock.java:28)
+	at com.cloudbees.groovy.cps.LValueBlock$BlockImpl.eval(LValueBlock.java:55)
+	at com.cloudbees.groovy.cps.LValueBlock.eval(LValueBlock.java:16)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:185)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:402)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:96)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:314)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:278)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE

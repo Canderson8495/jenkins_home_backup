@@ -1,0 +1,92 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1167.v8fe861b_09ef9">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>branch</name>
+          <description>This is the branch of the fiveM repository you were working on</description>
+          <value>master</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>branch</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@564.ve62a_4eb_b_e039">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1645848560017</timestamp>
+  <startTime>1645848560026</startTime>
+  <result>FAILURE</result>
+  <duration>386</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    
+    def app
+    
+    stage(&quot;Prepare&quot;){
+        sh &apos;docker stop 1&apos;
+        sh &apos;docker rm 1&apos;
+    }
+
+    stage(&apos;Pull Image&apos;) {
+        sh &apos;docker pull localhost:9999/fivem:${branch}&apos;
+    }
+    
+    stage(&apos;deploy&apos;) {
+        sh &apos;docker run --name 1 fivem:${branch}&apos;
+    }
+    
+}
+
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>41468709</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>12616083</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>113416208</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>15916417</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>27854540</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>12</iota>
+    <head>1:12</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
