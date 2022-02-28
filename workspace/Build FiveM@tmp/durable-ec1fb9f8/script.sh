@@ -1,0 +1,1 @@
+docker build -t "$JD_IMAGE" /tmp/15

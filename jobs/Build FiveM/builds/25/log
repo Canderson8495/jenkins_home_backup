@@ -1,0 +1,130 @@
+Started by user [8mha:////4ObkiT5QHaiw9SkTtWumLlqIdqgpjJX+ynF0sbuK2/5MAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4FY8zmZWDDxWdjX6AOVIZiaSiLRDx7ajROaYVFGroaK3AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PwMfGS1bzPa72c4BFrvAJws4JMaoyW68sFEGO+2lRwpAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Cs28nxFV82e5ojlN3ohu2HR/zBU27GrLvi04h1KslBtAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Build FiveM@2
+[8mha:////4OR6MoWQxW7wkLcQRULQc0JM+xL7GMVtwY66noomv5maAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Hgr4+sc4KwzfMKR9Y0SZpZKlVy1PoIunY4mDEn0TAQSAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NHHwW4LaoDN9F85cFHg8AQlH+qGCgmcK4YvYhRtx/FiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Clone repository)
+[8mha:////4Bhcqu/zeMcd6+xINIt9u3GP5nnLaBT8t3pfDzPzu0xuAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ git clone -b master https://github.com/Canderson8495/fivem-1.git /tmp/build-25
+Cloning into '/tmp/build-25'...
+[8mha:////4IeOpU/Axd0q1hr9P5GXH/a1cGbImGS0YOL9idGbKGDpAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HuHZnMBXEf82I/tY0p/HrFoSidwBMmisxbFFO9FBWBaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KE0uTqf+xGHuWSqpAepxz0k/lnWHt1eobh1dVe0EoSFAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4FVmPzh9XkKPoYoIIQWRtVj1i70twfFvP6Z5jSpJ/cz8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build image)
+[8mha:////4FBPrirwAhfv5awD5A+0nT4UUQLIHUkat6nudV65pXd4AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4LhfHcf62r1hUueUmDTiAkQjn4+Hx8sePLancQMevra4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFSNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPyt/2UMIAAAA=[0m[Pipeline] withEnv
+[8mha:////4AVBYXInHY93mGlIkgJ8FP02fWmwhCoB4KFrZKpgD2qhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4NRpQ1JczUEIycYah2QExZ8cSJxzHIazUEjXo86S9rljAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] sh
++ docker build -t fivem /tmp/build-25
+#1 [internal] load build definition from Dockerfile
+#1 sha256:91e31c7b5cbe995099913a9e80ffdebc7d0766a1ff73618c5c84b416c8c538ac
+#1 transferring dockerfile: 1.77kB done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:cbac96da8e126ad1d4013d9ae763fbcb4c05c9f8c44fc93532f1de4e51698392
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/spritsail/alpine:3.14
+#3 sha256:5a689994f5ee7b6085fcd6836c3df26a475d254d3b8945a5a01ce4728980f942
+#3 DONE 0.3s
+
+#4 [builder 1/8] FROM docker.io/spritsail/alpine:3.14@sha256:dd2f0aa9cb71e209b4caab6d304a016ec215d4263763a2e97a8c18fabcbc8c38
+#4 sha256:c6952a413eb81c14653ba6b8899bd3f803b4e1a815b5d1050a6ed5758f739082
+#4 DONE 0.0s
+
+#5 [builder 2/8] WORKDIR /output
+#5 sha256:2aeacd1b5832a3991ee70c9a76a52bc4cda306044b53db17d5e1ce2a491c5e5e
+#5 CACHED
+
+#6 [builder 3/8] RUN wget -O- http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/5181-9eba8dcc91ee4c6ab009fcf7a47837edf81efd1a/fx.tar.xz         | tar xJ --strip-components=1             --exclude alpine/dev --exclude alpine/proc             --exclude alpine/run --exclude alpine/sys  && mkdir -p /output/opt/cfx-server-data /output/usr/local/share  && apk -p $PWD add tini
+#6 sha256:07f4025dba200bf339e0bdbd3457c9c8a1e3230c1b097a82437ef037d6e25940
+#6 CACHED
+
+#7 [internal] load build context
+#7 sha256:1333d6effe52331282c8d7dda5097bbfaf636be539b92ad099712cb4a8bcc610
+#7 transferring context: 15.81MB 0.1s done
+#7 DONE 0.2s
+
+#8 [builder 4/7] ADD server.cfg opt/cfx-server-data
+#8 sha256:0a36e1adf9e88c56b9d6b471205029679b44f6f817cbef9d1b5480d2dea45732
+#8 CACHED
+
+#9 [builder 5/7] ADD entrypoint usr/bin/entrypoint
+#9 sha256:fd71650318c92ee7224bf2fd7861a1f3ee0ff46e7c00421a3b1c08fcfba58e26
+#9 CACHED
+
+#10 [builder 6/7] ADD resources opt/cfx-server-data/resources
+#10 sha256:4ca422420b0d2927be7194d0066445d39f4ebbdabbd1a7efb07d3f1e8ead7603
+#10 CACHED
+
+#11 [builder 7/7] RUN chmod +x /output/usr/bin/entrypoint
+#11 sha256:b58803b8d40281ccdb74739eaeae92e06f29e666085529a21392da8b8e97752b
+#11 CACHED
+
+#12 [stage-1 1/6] COPY --from=builder /output/ /
+#12 sha256:f2faf024ad3764bb92e2807b63608d921a36efd61a223dc5662a93493d837dbb
+#12 CACHED
+
+#13 [stage-1 2/6] WORKDIR /config
+#13 sha256:83945ca703b1d41d4f82e556d463c9405549e887404b1d5ecda40c487e716e3a
+#13 CACHED
+
+#14 [stage-1 3/6] RUN apk add
+#14 sha256:15df3a77e40793d36c4f10eca6956fc595156b9e6e53c0904470fef569346827
+#14 0.438 fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+#14 0.599 fetch http://dl-cdn.alpinelinux.org/alpine/v3.14/main/x86_64/APKINDEX.tar.gz
+#14 0.836 fetch http://dl-cdn.alpinelinux.org/alpine/edge/main/x86_64/APKINDEX.tar.gz
+#14 0.931 fetch http://dl-cdn.alpinelinux.org/alpine/edge/community/x86_64/APKINDEX.tar.gz
+#14 1.151 fetch http://dl-cdn.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+#14 1.262 fetch https://runtime.fivem.net/client/alpine/builds/x86_64/APKINDEX.tar.gz
+#14 1.441 fetch https://runtime.fivem.net/client/alpine/main/x86_64/APKINDEX.tar.gz
+#14 1.898 fetch https://runtime.fivem.net/client/alpine/testing/x86_64/APKINDEX.tar.gz
+#14 2.044 fetch https://runtime.fivem.net/client/alpine/community/x86_64/APKINDEX.tar.gz
+#14 2.188 fetch https://mirrors.fivem.net/build/linux/packages/cfx/x86_64/APKINDEX.tar.gz
+#14 2.451 OK: 41 MiB in 39 packages
+#14 DONE 2.8s
+
+#15 [stage-1 4/6] RUN apk add --no-cache openssh
+#15 sha256:b8d1d1e5112a6920c17f62ad66ae2e76f375a9b385b8c61276107dc1f1b38f4f
+#15 0.492 fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+#15 0.631 fetch http://dl-cdn.alpinelinux.org/alpine/v3.14/main/x86_64/APKINDEX.tar.gz
+#15 0.688 fetch http://dl-cdn.alpinelinux.org/alpine/edge/main/x86_64/APKINDEX.tar.gz
+#15 0.740 fetch http://dl-cdn.alpinelinux.org/alpine/edge/community/x86_64/APKINDEX.tar.gz
+#15 0.866 fetch http://dl-cdn.alpinelinux.org/alpine/edge/testing/x86_64/APKINDEX.tar.gz
+#15 0.933 fetch https://runtime.fivem.net/client/alpine/builds/x86_64/APKINDEX.tar.gz
+#15 1.081 fetch https://runtime.fivem.net/client/alpine/main/x86_64/APKINDEX.tar.gz
+#15 1.131 fetch https://runtime.fivem.net/client/alpine/testing/x86_64/APKINDEX.tar.gz
+#15 1.176 fetch https://runtime.fivem.net/client/alpine/community/x86_64/APKINDEX.tar.gz
+#15 1.213 fetch https://mirrors.fivem.net/build/linux/packages/cfx/x86_64/APKINDEX.tar.gz
+#15 1.442 (1/8) Installing openssh-keygen (8.8_p1-r4)
+#15 1.482 (2/8) Installing libedit (20210910.3.1-r0)
+#15 1.513 (3/8) Installing openssh-client-common (8.8_p1-r4)
+#15 1.572 (4/8) Installing openssh-client-default (8.8_p1-r4)
+#15 1.605 (5/8) Installing openssh-sftp-server (8.8_p1-r4)
+#15 1.630 (6/8) Installing openssh-server-common (8.8_p1-r4)
+#15 1.647 (7/8) Installing openssh-server (8.8_p1-r4)
+#15 1.694 (8/8) Installing openssh (8.8_p1-r4)
+#15 1.717 Executing busybox-1.35.0-r1.trigger
+#15 1.721 OK: 46 MiB in 47 packages
+#15 DONE 1.8s
+
+#16 [stage-1 5/6] RUN rc-update add sshd
+#16 sha256:78e99fb8d86e5e9e64b9d847f7dbecb3702ab7731a3e3f7179e67a564014c062
+#16 0.494 /bin/sh: rc-update: not found
+#16 ERROR: executor failed running [/bin/sh -c rc-update add sshd]: exit code: 127
+------
+ > [stage-1 5/6] RUN rc-update add sshd:
+------
+executor failed running [/bin/sh -c rc-update add sshd]: exit code: 127
+[8mha:////4K/w/3/Qg75KDBy0vcUzKQhMJ/uvCtTUU9aqxm6/6/6hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG9gN7HvgAAAA==[0m[Pipeline] }
+[8mha:////4GwhWw4rUeekHGiyU1YgfLPa9D84/g0qBTKqegRDIR10AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NAceCRFFisUGoYHal/J/jk/JQBz49K2AuyrQ+nypMTgAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiabibGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AUIVvo2+AAAA[0m[Pipeline] }
+[8mha:////4IZs6pc+NgUVs0EdR3Bc+EUNwDj0Fpn1DOZNvJq1ph9mAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICJUJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fcfblMb4AAAA=[0m[Pipeline] // stage
+[8mha:////4GfYMRNaT5oD0Uo/4n31omrxczdowLa/kddG26IGud7NAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BK1nRVL0AAAA=[0m[Pipeline] }
+[8mha:////4Nt1J+T8uPeE2mj1pLuy/sZa2uIunoWvfkXry46Pl8VRAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T845dX3vQAAAA==[0m[Pipeline] // node
+[8mha:////4AtLXWkSrHvrbOTvatT418nZ19Zf1IXlmSbtiya5Wa0OAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkrMbJtWHxCyrUWmjeg/YhTH6Rv+Y/SCRx8k73nOW83timiBNHp1pLnadUe9WH0S1PTRy7W+BJtXxVNVPiYFVlp4obe16xYrFYl+XYaOws1YGTJyfY69Y8TBEMueIicXFHjdw3A57I9FIWE+ULc8ThPjaJ6df5G8Dc94K8LAVZ+QF+r3LHvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

@@ -20,13 +20,13 @@
     def app
 
     stage(&apos;Clone repository&apos;) {
-        sh &apos;git clone -b ${branch} https://github.com/Canderson8495/fivem-1.git /tmp/${BUILD_NUMBER}&apos;
+        sh &apos;git clone -b ${branch} https://github.com/Canderson8495/fivem-1.git /tmp/build-${BUILD_NUMBER}&apos;
 
     }
 
     stage(&apos;Build image&apos;) {
         /* Build your image */
-        app = docker.build(&quot;fivem&quot;, &quot;/tmp/${BUILD_NUMBER}&quot;)
+        app = docker.build(&quot;fivem&quot;, &quot;/tmp/build-${BUILD_NUMBER}&quot;)
     }
 
     stage(&apos;Push image&apos;) {

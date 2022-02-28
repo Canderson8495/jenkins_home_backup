@@ -1,0 +1,60 @@
++ docker build -t fivem /tmp/15
+#1 [internal] load build definition from Dockerfile
+#1 sha256:3670b3e32e29f895a6c1e6680fcd4416185df949e0103a21839c1ac8a3954937
+#1 transferring dockerfile: 1.76kB done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:8d31c0178391296e31c49ddc0d9c56977a7fba126ecc53d8362afef33d8634a2
+#2 transferring context: 2B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/spritsail/alpine:3.14
+#3 sha256:5a689994f5ee7b6085fcd6836c3df26a475d254d3b8945a5a01ce4728980f942
+#3 DONE 0.6s
+
+#4 [builder 1/8] FROM docker.io/spritsail/alpine:3.14@sha256:dd2f0aa9cb71e209b4caab6d304a016ec215d4263763a2e97a8c18fabcbc8c38
+#4 sha256:c6952a413eb81c14653ba6b8899bd3f803b4e1a815b5d1050a6ed5758f739082
+#4 DONE 0.0s
+
+#5 [builder 2/8] WORKDIR /output
+#5 sha256:2aeacd1b5832a3991ee70c9a76a52bc4cda306044b53db17d5e1ce2a491c5e5e
+#5 CACHED
+
+#6 [builder 3/8] RUN wget -O- http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/5181-9eba8dcc91ee4c6ab009fcf7a47837edf81efd1a/fx.tar.xz         | tar xJ --strip-components=1             --exclude alpine/dev --exclude alpine/proc             --exclude alpine/run --exclude alpine/sys  && mkdir -p /output/opt/cfx-server-data /output/usr/local/share  && apk -p $PWD add tini
+#6 sha256:07f4025dba200bf339e0bdbd3457c9c8a1e3230c1b097a82437ef037d6e25940
+#6 CACHED
+
+#8 [internal] load build context
+#8 sha256:949148a92108d54f6c17c84c13e019ce4b5ec1166fa3813eecb3cb5ce5cf1a15
+#8 transferring context: 15.81MB 0.1s done
+#8 DONE 0.2s
+
+#7 [builder 4/8] RUN apk add --no-cache openssh && echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config && adduser -h /config -s /bin/sh -D user     && echo -n 'user:Erryial123' | chpasswd && ssh-keygen -A     && exec /usr/sbin/sshd -D -e "$@"
+#7 sha256:1855ed3911aba9436d5e50b93082a2ca760711e604c30e9ce4733681168dd617
+#7 0.410 + apk add --no-cache openssh
+#7 0.417 fetch https://alpine.spritsail.io/spritsail/x86_64/APKINDEX.tar.gz
+#7 1.067 fetch https://dl-cdn.alpinelinux.org/alpine/v3.14/main/x86_64/APKINDEX.tar.gz
+#7 1.346 fetch https://dl-cdn.alpinelinux.org/alpine/v3.14/community/x86_64/APKINDEX.tar.gz
+#7 1.539 (1/10) Installing openssh-keygen (8.6_p1-r3)
+#7 1.585 (2/10) Installing ncurses-terminfo-base (6.2_p20210612-r0)
+#7 1.605 (3/10) Installing ncurses-libs (6.2_p20210612-r0)
+#7 1.638 (4/10) Installing libedit (20210216.3.1-r0)
+#7 1.665 (5/10) Installing openssh-client-common (8.6_p1-r3)
+#7 1.736 (6/10) Installing openssh-client-default (8.6_p1-r3)
+#7 1.782 (7/10) Installing openssh-sftp-server (8.6_p1-r3)
+#7 1.810 (8/10) Installing openssh-server-common (8.6_p1-r3)
+#7 1.832 (9/10) Installing openssh-server (8.6_p1-r3)
+#7 1.875 (10/10) Installing openssh (8.6_p1-r3)
+#7 1.947 Executing busybox-1.33.1-r6.trigger
+#7 1.951 OK: 12 MiB in 26 packages
+#7 1.978 + echo 'PasswordAuthentication yes'
+#7 1.978 + adduser -h /config -s /bin/sh -D user
+#7 2.005 + echo -n user:Erryial123
+#7 2.005 + chpasswd
+#7 2.015 chpasswd: password for 'user' changed
+#7 2.015 + ssh-keygen -A
+#7 2.018 ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519 
+#7 2.158 + exec /usr/sbin/sshd -D -e
+#7 2.161 Server listening on 0.0.0.0 port 22.
+#7 2.161 Server listening on :: port 22.

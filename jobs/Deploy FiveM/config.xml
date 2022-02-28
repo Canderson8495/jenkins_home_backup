@@ -22,8 +22,8 @@
     
     stage(&quot;Prepare&quot;){
         try {
-            sh &apos;docker stop C1&apos;
-            sh &apos;docker rm C1&apos;
+            sh &apos;docker-compose -p Cluster_1 stop&apos;
+            sh &apos;docker-compose -p Cluster_1 rm -f&apos;
             echo &quot;Removed old containers&quot;
         } catch (Exception e) {
             echo &apos;Returned: &apos; + e.toString()
@@ -35,13 +35,11 @@
     }
     
     stage(&apos;deploy&apos;) {
-        sh &apos;docker run -d --name C1 localhost:9999/fivem:${branch}&apos;
-        /*
-        sh &apos;git clone https://github.com/Canderson8495/fivem-1.git /tmp/${BUILD_NUMBER}&apos;
-        sh &apos;/tmp/${BUILD_NUMBER}&apos;
-        sh &apos;ls&apos;
-        sh &apos;docker-compose up -d&apos;
-        */
+        //sh &apos;docker run -d --name C1 localhost:9999/fivem:${branch}&apos;
+        sh &apos;git clone https://github.com/Canderson8495/fivem-1.git /tmp/deploy-${BUILD_NUMBER}&apos;
+        sh &apos;ls /tmp/deploy-${BUILD_NUMBER}&apos;
+        sh &apos;cd /tmp/deploy-${BUILD_NUMBER} &amp;&amp; sudo docker-compose -p Cluster_1 up -d&apos;
+        sh &quot;docker inspect -f &apos;{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}&apos; fivem&quot;
     }
     
 }
